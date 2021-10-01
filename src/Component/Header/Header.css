@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content:space-evenly;
+}
+.header li{
+    list-style: none;
+}
+.header li a{
+    text-decoration: none;
+}
+.selected:active{
+    font-weight: bold;
+        color: green
+}
